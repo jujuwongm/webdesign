@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+	src: url('html/HelveticaNeue.ttf') format('truetype');}
+
+
+a:hover {
+	background-color: black;
+}
+a {
+	
+	color: #FF6000;
+}
+
+
+.actives{
+	
+	color: #FF6000;
+}
+  .ui.masthead.segment {
+    padding: 0;
+  }
+
+.hero-image {
+  background-image: url('https://www.setu.ie/uploads/banner/_1200x630_crop_center-center_none/culinary.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 65%;
+  position: relative;
+}
+
+.hero-image::before { /*overlay*/
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* mask overlay */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+
+.ui.grid {
+  height: 35%;
+}
+
+.ui.segment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ui.segment h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+.square {
+  height: 35%;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.square h3 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.square p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .square {
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+
+#cap {font-size:80px;}
+
+.squares {
+	width:25%;
+	font-size: 24px;
+	padding:1%;
+	text-align: center;
+	}
+#squarez {
+padding: 1px;
+	padding-left: 30px;
+	height:35%;
+		padding-right: 30px;
+	font-family: 'Montserrat', sans-serif;
+} 
+
+
+   
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+  }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: grayscale;
+			font-family: 'Montserrat', sans-serif;
+		  margin: 0;
+			  padding:0;}
+
+
+			#header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #FFFFFF;
+		}
+
+
+		h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    margin: 0;
+;     font-style: italic;
+		}
+
+
+
+		  .imgur {
+  height: 40px;
+}
+
+		  
+
+   
+
+
+
+.tex {
+		font-family: 'Montserrat', sans-serif;
+	padding-left: 10%;
+}
+
+
+
+
+.blob-image img {
+    position: absolute;
+    right: -62%;
+    top: 0%;
+    z-index: 2;
+    width: 422px;
+    height: auto;
+}
+
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.description2 {
+  font-family: 'Montserrat', sans-serif;
+	text-align: right;
+}
+
+
+.heroimage {
+  background-image: url('https://lh3.googleusercontent.com/drive-viewer/AAOQEORyE6Oxjvf1Ejb8hqHGz-k1sOAeQu6ssFFBxkNiEUcLZnQFwOxwosAXDXwJYmBmUpcMbi4sCa3rppGalzYC2wmPSsRJcg=s1600');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 65%;
+  position: relative;
+}
+
+.heroimage1 {
+  background-image: url('https://lh3.googleusercontent.com/drive-viewer/AFGJ81pNJZU_-VHGILXTEtynLhzvH9gL0a43riO2eb_4Ki25AD54lj26RAcfeBNhcYu3cZ308OXM6zRBAlyd-x8h7jsyc_dpmQ=s1600');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+
+.history {
+    position: static;
+
+}
+
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+#actives {
+	font-weight: 900;
+	
+	color: #FF6000;
+	
+}
+#actives1 {
+	font-weight: 900;
+	
+	color: #FF6000;
+	
+}
+#actives2 {
+	font-weight: 900;
+	
+	color: #FF6000;
+	
+}
+
+
+
+
+
